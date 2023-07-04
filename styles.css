@@ -1,0 +1,312 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+nav {
+    background: #2980b9;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav .admin-login {
+    margin-left: auto;
+  }
+  
+  nav .admin-login a {
+    background: #fff;
+    color: #2980b9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+#contact {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .map {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+#image-slider {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+#about {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+#reviews {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review {
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .review-author {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+  }
+  
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container p {
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+
+#car {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .car-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  
+  .car-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .car-details h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .car-details p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-rent-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-rent-now:hover {
+    background-color: #1863a1;
+  }
+  .user-login {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .user-login a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .user-login a:hover {
+    color: #555;
+  }
+  

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental Website - Cars</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cars.html">Cars</a></li>
+      <li><a href="terms.html">Terms and Conditions</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="admin-login">
+      <a href="admin.html">Admin Login</a>
+    </div>
+    <div class="user-login">
+      <a href="user.html">User Login</a>
+    </div>
+  </nav>
+  
+
+<section id="car">
+    <div class="container">
+        <h2>Our Cars</h2>
+        <div class="car-list">
+          <div class="car-item">
+            <img src="./Images/img_1.jpg">
+            <div class="car-details">
+              <h3>Tata Safari 2022</h3>
+              <p>Price: ₹4000 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="4000"> 
+              <input type="hidden" name="car" value="Tata Safari 2022">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+        <div class="car-item">
+            <img src="./Images/img_2.jpg">
+            <div class="car-details">
+              <h3>KIA Seltos 2021</h3>
+              <p>Price: ₹1500 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1500"> 
+              <input type="hidden" name="car" value="KIA Seltos 2021">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_3.jpg">
+            <div class="car-details">
+              <h3>Mahindra Scorpio 2018</h3>
+              <p>Price: ₹1600 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1600"> 
+              <input type="hidden" name="car" value="Mahindra Scorpio 2018">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_4.jpeg">
+            <div class="car-details">
+              <h3>Toyota Innova 2017</h3>
+              <p>Price: ₹2100 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="2100"> 
+              <input type="hidden" name="car" value="Toyota Innova 2017">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_5.jpg">
+            <div class="car-details">
+              <h3>Hyundai Creta 2020</h3>
+              <p>Price: ₹1750 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1750"> 
+              <input type="hidden" name="car" value="Hyundai Creta 2020">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_6.jpg">
+            <div class="car-details">
+              <h3>Maruti Suzuki 2021</h3>
+              <p>Price: ₹1300 per day</p>
+              
+              <input type="hidden" name="price" value="1300"> 
+              <form action="rent.php" method="post">
+                <input type="hidden" name="car" value="Maruti Suzuki 2021">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_7.jpg">
+            <div class="car-details">
+              <h3>Honda CRV 2015</h3>
+              <p>Price: ₹2200 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="2200"> 
+              <input type="hidden" name="car" value="Honda CRV 2015">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_8.webp">
+            <div class="car-details">
+              <h3>Mahindra Scorpio 2022</h3>
+              <p>Price: ₹3000 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="3000"> 
+              <input type="hidden" name="car" value="Mahindra Scorpio 2022">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_9.webp">
+            <div class="car-details">
+              <h3>Tata HEXA 2017</h3>
+              <p>Price: ₹1980 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1980"> 
+              <input type="hidden" name="car" value="Tata HEXA 2017">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/Img_10.jpeg">
+            <div class="car-details">
+              <h3>Mahindra Thar 2021</h3>
+              <p>Price: ₹1800 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1800"> 
+              <input type="hidden" name="car" value="Mahindra Thar 2021">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_11.jpeg">
+            <div class="car-details">
+              <h3>Maruti Brezza 2022</h3>
+              <p>Price: ₹1650 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="1650"> 
+              <input type="hidden" name="car" value="Maruti Brezza 2022">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="./Images/img_12.webp">
+            <div class="car-details">
+              <h3>Maruti Ignis 2018</h3>
+              <p>Price: ₹850 per day</p>
+              <form action="rent.php" method="post">
+                
+              <input type="hidden" name="price" value="850"> 
+              <input type="hidden" name="car" value="Maruti Ignis 2018">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <input type="submit" value="Rent Now" class="btn-rent-now">
+              </form>
+            </div>
+
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

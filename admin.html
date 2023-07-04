@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental Website - Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+        background-color: #0c1022;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+    
+    .login_form_container {
+        width: 400px;
+        height: 470px;
+        max-width: 90%;
+        max-height: 90%;
+        background: linear-gradient(#0c1022, #0f3460);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .login_form {
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #00ccff;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    
+    form {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+    
+    input[type="submit"] {
+        background-color: #00ccff;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #0099cc;
+    }
+</style>
+</head>
+<body>
+  
+  <div class="login_form_container">
+    <div class="login_form">
+        <h1>LOGIN SCREEN</h1>
+        <form action="./index.php" method="post">
+            <label for="username">USER NAME:</label><br>
+            <input type="text" id="username" name="un"><br><br>
+            <label for="password">PASSWORD:</label><br>
+            <input type="password" id="password" name="pwd"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</body>
+</html>
